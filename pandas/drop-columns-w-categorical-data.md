@@ -1,4 +1,4 @@
-# Dtop columns w categorical data
+# Drop columns w categorical data
 
 ```python
 # Get list of categorical variables
