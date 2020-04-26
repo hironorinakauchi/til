@@ -1,7 +1,6 @@
 # Bundle Preprocessing
 
 ```python
-
 # Preprocessing for numerical data
 numerical_transformer = SimpleImputer(strategy='constant')
 
@@ -33,5 +32,4 @@ clf.fit(X_train, y_train)
 preds = clf.predict(X_valid)
 
 print('MAE:', mean_absolute_error(y_valid, preds))
-
 ```
