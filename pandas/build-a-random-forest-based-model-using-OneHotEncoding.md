@@ -60,3 +60,4 @@ output = pd.DataFrame({'Id': OH_X_test.index,
                        'SalePrice': preds_test})
 output.to_csv('submission.csv', index=False)
 ```
+[source](https://stackoverflow.com/questions/60020698/randomforestregressor-input-contains-nan-infinity-or-a-value-too-large-for-dty)
