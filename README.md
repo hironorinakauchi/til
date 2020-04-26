@@ -1,6 +1,16 @@
 # til
-📝 Today I learned 
 
-[pandas](https://github.com/hironorinakauchi/til/tree/master/pandas)
-- [drop columns w missing values](https://github.com/hironorinakauchi/til/blob/master/pandas/drop-columns-w-missing-values.md)
+> Today I learned 
 
+---
+
+### Categories
+
+* [Pandas](#pandas)
+
+### Pandas
+- [drop columns w missing values](pandas/drop-columns-w-missing-values.md)
+
+### About
+
+I shamelessly stole this idea from [jbranchaud](https://github.com/jbranchaud/til). Hope he doesn't mind...🙇‍
