@@ -21,6 +21,7 @@
 - [bundle preprocessing](scikit-learn/bundle-preprocessing.md)
 - [run cross-validation](scikit-learn/run-cross-validation.md)
 - [use gradient boosting](scikit-learn/use-gradient-boosting.md)
+- [tackle target leakage](scikit-learn/tackle-target-leakage.md)
 
 ### About
 
