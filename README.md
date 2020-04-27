@@ -19,6 +19,7 @@
 ### Scikit-learn
 - [build a random forest based model using OneHotEncoding](scikit-learn/build-a-random-forest-based-model-using-OneHotEncoding.md)
 - [bundle preprocessing](scikit-learn/bundle-preprocessing)
+- [run cross-validation](scikit-learn/run-cross-validation)
 
 ### About
 
