@@ -28,6 +28,9 @@
 - [build a model](workflow/build-a-model.md)
 - [deal w categorical variables](workflow/deal-w-categorical-variables.md)
 
+### Questions 
+- [Remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-target-separate-target-from-predictors.md)
+
 ### About
 
 I shamelessly stole this idea from [jbranchaud](https://github.com/jbranchaud/til). Hope he doesn't mind...🙇‍
