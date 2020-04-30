@@ -8,6 +8,7 @@
 
 * [Pandas](#pandas)
 * [Scikit-learn](#scikit-learn)
+* [Workflow](#Workflow)
 
 ### Pandas
 - [drop columns w missing values](pandas/drop-columns-w-missing-values.md)
@@ -22,6 +23,9 @@
 - [run cross-validation](scikit-learn/run-cross-validation.md)
 - [use gradient boosting](scikit-learn/use-gradient-boosting.md)
 - [tackle target leakage](scikit-learn/tackle-target-leakage.md)
+
+### Workflow
+- [build a model](workflow/build-a-model.md)
 
 ### About
 
