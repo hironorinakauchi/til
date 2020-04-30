@@ -1,4 +1,4 @@
-# Build Models
+# Build A Model
 
 On a conceptual level, the steps to building and using a model are:
 1. Define what model and parameters to use
