@@ -29,7 +29,7 @@
 - [deal w categorical variables](workflow/deal-w-categorical-variables.md)
 
 ### Questions 
-- [Remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-target-separate-target-from-predictors.md)
+- [Remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
 
 ### About
 
