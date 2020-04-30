@@ -26,6 +26,7 @@
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
+- [deal w categorical variables](workflow/deal-w-categorical-variables.md)
 
 ### About
 
