@@ -41,4 +41,5 @@ Name: count_7_days, dtype: float64
 # adjust the index so we can join it with the other training data
 count_7_days.index = launched.values
 count_7_days = count_7_days.reindex(ks.index)
+baseline_data.join(count_7_days).head(10)
 ```
