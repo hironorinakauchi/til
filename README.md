@@ -25,6 +25,7 @@
 - [use gradient boosting](scikit-learn/use-gradient-boosting.md)
 - [tackle target leakage](scikit-learn/tackle-target-leakage.md)
 - [train a LightGBM model](scikit-learn/train-a-lightgbm-model.md)
+- [label encode](scikit-learn/label-encode.md)
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
