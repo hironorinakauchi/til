@@ -16,6 +16,7 @@
 - [fix mismatching between training and validation data](pandas/fix-mismatching-between-training-and-validation-data.md)
 - [get number of unique entries in each column w categorical data.md](pandas/get-number-of-unique-entries-in-each-column-w-categorical-data.md)
 - [select numerical columns](pandas/select-numerical-columns.md)
+- [convert timestamps](pandas/convert-timestamps.md)
 
 ### Scikit-learn
 - [build a random forest based model using OneHotEncoding](scikit-learn/build-a-random-forest-based-model-using-OneHotEncoding.md)
