@@ -27,6 +27,8 @@
 - [train a LightGBM model](scikit-learn/train-a-lightgbm-model.md)
 - [label encode](scikit-learn/label-encode.md)
 - [count encode](scikit-learn/count-encode.md)
+- [target encode](scikit-learn/target-encode.md)
+- [catboost encode](scikit-learn/catboost-encode.md)
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
