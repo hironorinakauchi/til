@@ -6,3 +6,4 @@ ks = ks.assign(hour=ks.launched.dt.hour,
                month=ks.launched.dt.month,
                year=ks.launched.dt.year)
 ```
+[source](https://www.kaggle.com/matleonard/baseline-model)
