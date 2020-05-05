@@ -27,6 +27,7 @@
 ### Workflow
 - [build a model](workflow/build-a-model.md)
 - [deal w categorical variables](workflow/deal-w-categorical-variables.md)
+- [prepare target column](workflow/prepare-target-column.md)
 
 ### Questions 
 - [remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
