@@ -31,6 +31,7 @@
 - [count encode](scikit-learn/count-encode.md)
 - [target encode](scikit-learn/target-encode.md)
 - [catboost encode](scikit-learn/catboost-encode.md)
+- [use univariate feature selection](scikit-learn/use-univariate-feature-selection.md)
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
@@ -48,6 +49,7 @@
 - [what data should you be using to calculate encodings based on stats?](questions/what-data-should-you-be-using-to-calculate-encodings-based-on-stats.md)
 - [why is count encoding effective?](questions/why-is-count-encoding-effective.md)
 - [why removing a col sometimes works for tareget encoding?](questions/why-removing-a-col-sometimes-works-for-target-encoding.md)
+- [how do you pick the best value of k?](questions/how-do-you-pick-the-best-value-of-k.md]
 
 ### About
 
