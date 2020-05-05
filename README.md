@@ -32,6 +32,7 @@
 - [target encode](scikit-learn/target-encode.md)
 - [catboost encode](scikit-learn/catboost-encode.md)
 - [use univariate feature selection](scikit-learn/use-univariate-feature-selection.md)
+- [use l1 regularization for feature selection](scikit-learn/use-l1-regularization-for-feature-selection.md)
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
