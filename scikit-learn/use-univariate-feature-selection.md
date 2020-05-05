@@ -1,7 +1,9 @@
 # Use Univariate Feature Selection
 use SelectKBest with the f_classif scoring function to choose 40 features from the 91 features in the data. 
 The simplest and fastest methods are based on univariate statistical tests. For each feature, measure how strongly the target depends on the feature using a statistical test like 𝜒2 or ANOVA.
+
 From the scikit-learn feature selection module, feature_selection.SelectKBest returns the K best features given some scoring function. For our classification problem, the module provides three different scoring functions: 𝜒2 , ANOVA F-value, and the mutual information score. The F-value measures the linear dependency between the feature variable and the target. This means the score might underestimate the relation between a feature and the target if the relationship is nonlinear. The mutual information score is nonparametric and so can capture nonlinear relationships.
+
 With SelectKBest, we define the number of features to keep, based on the score from the scoring function. Using .fit_transform(features, target) we get back an array with only the selected features.
 
 ```python
