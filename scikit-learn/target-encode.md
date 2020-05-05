@@ -14,6 +14,7 @@ target_enc = ce.TargetEncoder(cols=cat_features)
 train, valid, _ = get_data_splits(data)
 
 # Fit the encoder using the categorical features and target
+# Learn encoding from the training set. Use the 'outcome' column as the target.
 target_enc.fit(train[cat_features], train['outcome'])
 
 # Transform the features, rename the columns with _target suffix, and join to dataframe
