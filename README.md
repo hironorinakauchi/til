@@ -38,6 +38,7 @@
 - [create training, validation, and test splits](workflow/create-training-validation-and-test-splits.md)
 - [use interaction features](workflow/use-interaction-features.md)
 - [calculate time since last launch](workflow/calculate-time-since-last-launch.md)
+- [transform numerical features](workflow/transform-numerical-features.md)
 
 ### Questions 
 - [remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
