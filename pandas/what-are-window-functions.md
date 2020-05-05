@@ -8,3 +8,10 @@ Window functions allow us to perform computations among the values of a specifie
 Window functions are especially useful for time series data where at each point in time in your data, you are only supposed to know what has happened as of that point (no crystal balls allowed). The good news is that windows functions exist in pandas and they are very easy to use.
 
 [source](https://towardsdatascience.com/window-functions-in-pandas-eaece0421f7)
+
+Edited: 05052020tu
+Found a better visual representation of what expanding window looks like from Uber Engineering. According to them, expanding steps is defined as "the number of data points added to the training time series from one pass to another".
+
+<img src="http://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/image6-2.png">
+
+[source](https://eng.uber.com/omphalos/)
