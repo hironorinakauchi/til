@@ -24,6 +24,7 @@
 - [run cross-validation](scikit-learn/run-cross-validation.md)
 - [use gradient boosting](scikit-learn/use-gradient-boosting.md)
 - [tackle target leakage](scikit-learn/tackle-target-leakage.md)
+- [train a LightGBM model](scikit-learn/train-a-lightgbm-model.md)
 
 ### Workflow
 - [build a model](workflow/build-a-model.md)
