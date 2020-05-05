@@ -10,8 +10,11 @@ Window functions are especially useful for time series data where at each point 
 [source](https://towardsdatascience.com/window-functions-in-pandas-eaece0421f7)
 
 Edited: 05052020tu
-Found a better visual representation of what expanding window looks like from Uber Engineering. According to them, expanding steps is defined as "the number of data points added to the training time series from one pass to another".
+
+Found a better visual representation of expanding window from Uber Engineering.
 
 <img src="http://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/image6-2.png">
+
+Expanding steps is defined as "the number of data points added to the training time series from one pass to another".
 
 [source](https://eng.uber.com/omphalos/)
