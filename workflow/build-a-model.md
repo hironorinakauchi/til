@@ -8,7 +8,8 @@ On a conceptual level, the steps to building and using a model are:
 
 For instance, making a decision tree model will follow something like this:
 1. read data
-2. create target object y
+2. check target object y
+2.5. clean data as needed Edited: 05052020
 3. create X
 4. split into validation and training data
 5. specify model
@@ -34,6 +35,8 @@ y = home_data.SalePrice
 # Create X
 features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
 X = home_data[features]
+
+# clean data
 
 # Split into validation and training data
 train_X, val_X, train_y, val_y = train_test_split(X, y, random_state=1)
