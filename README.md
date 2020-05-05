@@ -17,6 +17,7 @@
 - [get number of unique entries in each column w categorical data.md](pandas/get-number-of-unique-entries-in-each-column-w-categorical-data.md)
 - [select numerical columns](pandas/select-numerical-columns.md)
 - [convert timestamps](pandas/convert-timestamps.md)
+- [use .rolling to select time periods](pandas/use-rolling-to-select-time-periods.md)
 
 ### Scikit-learn
 - [build a random forest based model using OneHotEncoding](scikit-learn/build-a-random-forest-based-model-using-OneHotEncoding.md)
