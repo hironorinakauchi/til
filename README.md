@@ -35,6 +35,7 @@
 - [deal w categorical variables](workflow/deal-w-categorical-variables.md)
 - [prepare target column](workflow/prepare-target-column.md)
 - [create training, validation, and test splits](workflow/create-training-validation-and-test-splits.md)
+- [use interaction features](workflow/use-interaction-features.md)
 
 ### Questions 
 - [remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
