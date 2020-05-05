@@ -1,0 +1,23 @@
+# Transform numerical features
+The distribution of the values in "goal" shows that most projects have goals less than 5000 USD. However, there is a long tail of goals going up to $100,000. Some models work better when the features are normally distributed, so it might help to transform the goal values. Common choices for this are the square root and natural logarithm. These transformations can also help constrain outliers
+
+```python
+plt.hist(ks.goal, range=(0, 100000), bins=50);
+plt.title('Goal');
+```
+<img src="https://www.kaggleusercontent.com/kf/31657929/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DMCo4h4S8g1FYkGdNdcG-g.PtG6rWVeZYSoJzuLVF4M35qMs6hh-RJwnpqOWHPlybLrEZ7-m2PJtgtuRbOgsK6yDFRlmhVu8cRx96FDplsrXnwaDDoHtdjpYPXZsVMCAzs2_FG0xJ_UKpDMhAVvFVI9XRuKraoIFkMWnvkzT5gibGqlCpT-OzBH1xlOdnkuarDpA7HmfPXykI5va94SjByXZ5K4QVZSyDJvgWhCPm-_HL36U6dINw4W-dNQnCeNLWQRjpGwTu0mCSGF6d8bZTI2W0mst3M6QlM_evT0Mt0uC8cbbn5DbVY-Oxaei4Dtw5VIChD4t4oM2WpfcoywNsLIlk4U0Qxn9zImdtapJNaSq-0xBnTmKqsTXrLrgXC6c0uMhDOxHpK87VQyOdjfji9yoS-WXC89Sd3BVS7uWAlIpNkglyYTcSQ5loYwbhb4vgWZmbjRanjjCpuYE0kkPZ_NmXyKROreCATF4AH5fYSPHeIDkmocYoBlhmWwSgnonz5eIva_rV8xuwz623gTj16u8iYKYoca-TV3lVymLcgWw5zXDRrIx9BMSKVXVMDxoo18VxV1PQOvH4wHtIjPADxVAvKaNCqeOWNBbKqfypJ0HobTHyKJjBPDCH-hSV2PucvmYXJI1iQOfDRhLEEPFp_0iXuQnw66AcwGW2OJ7iweCTjj_wUEJsP6LgH1l8TiwfM.flbCkr3TUApDhfy5MGZv7g/__results___files/__results___23_0.png">
+
+```python
+plt.hist(np.sqrt(ks.goal), range=(0, 400), bins=50);
+plt.title('Sqrt(Goal)');
+```
+<img src="https://www.kaggleusercontent.com/kf/31657929/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DMCo4h4S8g1FYkGdNdcG-g.PtG6rWVeZYSoJzuLVF4M35qMs6hh-RJwnpqOWHPlybLrEZ7-m2PJtgtuRbOgsK6yDFRlmhVu8cRx96FDplsrXnwaDDoHtdjpYPXZsVMCAzs2_FG0xJ_UKpDMhAVvFVI9XRuKraoIFkMWnvkzT5gibGqlCpT-OzBH1xlOdnkuarDpA7HmfPXykI5va94SjByXZ5K4QVZSyDJvgWhCPm-_HL36U6dINw4W-dNQnCeNLWQRjpGwTu0mCSGF6d8bZTI2W0mst3M6QlM_evT0Mt0uC8cbbn5DbVY-Oxaei4Dtw5VIChD4t4oM2WpfcoywNsLIlk4U0Qxn9zImdtapJNaSq-0xBnTmKqsTXrLrgXC6c0uMhDOxHpK87VQyOdjfji9yoS-WXC89Sd3BVS7uWAlIpNkglyYTcSQ5loYwbhb4vgWZmbjRanjjCpuYE0kkPZ_NmXyKROreCATF4AH5fYSPHeIDkmocYoBlhmWwSgnonz5eIva_rV8xuwz623gTj16u8iYKYoca-TV3lVymLcgWw5zXDRrIx9BMSKVXVMDxoo18VxV1PQOvH4wHtIjPADxVAvKaNCqeOWNBbKqfypJ0HobTHyKJjBPDCH-hSV2PucvmYXJI1iQOfDRhLEEPFp_0iXuQnw66AcwGW2OJ7iweCTjj_wUEJsP6LgH1l8TiwfM.flbCkr3TUApDhfy5MGZv7g/__results___files/__results___24_0.png">
+
+```python
+plt.hist(np.log(ks.goal), range=(0, 25), bins=50);
+plt.title('Log(Goal)');
+```
+<img src="https://www.kaggleusercontent.com/kf/31657929/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..DMCo4h4S8g1FYkGdNdcG-g.PtG6rWVeZYSoJzuLVF4M35qMs6hh-RJwnpqOWHPlybLrEZ7-m2PJtgtuRbOgsK6yDFRlmhVu8cRx96FDplsrXnwaDDoHtdjpYPXZsVMCAzs2_FG0xJ_UKpDMhAVvFVI9XRuKraoIFkMWnvkzT5gibGqlCpT-OzBH1xlOdnkuarDpA7HmfPXykI5va94SjByXZ5K4QVZSyDJvgWhCPm-_HL36U6dINw4W-dNQnCeNLWQRjpGwTu0mCSGF6d8bZTI2W0mst3M6QlM_evT0Mt0uC8cbbn5DbVY-Oxaei4Dtw5VIChD4t4oM2WpfcoywNsLIlk4U0Qxn9zImdtapJNaSq-0xBnTmKqsTXrLrgXC6c0uMhDOxHpK87VQyOdjfji9yoS-WXC89Sd3BVS7uWAlIpNkglyYTcSQ5loYwbhb4vgWZmbjRanjjCpuYE0kkPZ_NmXyKROreCATF4AH5fYSPHeIDkmocYoBlhmWwSgnonz5eIva_rV8xuwz623gTj16u8iYKYoca-TV3lVymLcgWw5zXDRrIx9BMSKVXVMDxoo18VxV1PQOvH4wHtIjPADxVAvKaNCqeOWNBbKqfypJ0HobTHyKJjBPDCH-hSV2PucvmYXJI1iQOfDRhLEEPFp_0iXuQnw66AcwGW2OJ7iweCTjj_wUEJsP6LgH1l8TiwfM.flbCkr3TUApDhfy5MGZv7g/__results___files/__results___25_0.png">
+
+The log transformation won't help our model since tree-based models are scale invariant. However, this should help if we had a linear model or neural network.
+Other transformations include squares and other powers, exponentials, etc. These might help the model discriminate, like the kernel trick for SVMs. Again, it takes a bit of experimentation to see what works. One method is to create a bunch of new features and later choose the best ones with feature selection algorithms.
