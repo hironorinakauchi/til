@@ -38,6 +38,7 @@
 
 ### Questions 
 - [remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
+- [what data should you be using to calculate encodings based on stats?](questions/what-data-should-you-be-using-to-calculate-encodings-based-on-stats.md)
 
 ### About
 
