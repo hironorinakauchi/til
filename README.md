@@ -19,6 +19,7 @@
 - [convert timestamps](pandas/convert-timestamps.md)
 - [use .rolling to select time periods](pandas/use-rolling-to-select-time-periods.md)
 - [what are window functions](pandas/what-are-window-functions.md)
+- [pandas basics](pandas/PandasBasics.ipynb)
 
 ### Scikit-learn
 - [build a random forest based model using OneHotEncoding](scikit-learn/build-a-random-forest-based-model-using-OneHotEncoding.md)
