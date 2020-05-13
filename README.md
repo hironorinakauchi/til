@@ -52,6 +52,7 @@
 - [why is count encoding effective?](questions/why-is-count-encoding-effective.md)
 - [why removing a col sometimes works for tareget encoding?](questions/why-removing-a-col-sometimes-works-for-target-encoding.md)
 - [how do you pick the best value of k?](questions/how-do-you-pick-the-best-value-of-k.md)
+- [when to use OHE vs LE?](questions/when-to-use-ohe-vs-le.md)
 
 ### About
 
