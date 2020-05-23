@@ -20,3 +20,9 @@ for c in train.columns[train.dtypes == 'object']:
 rf = RandomForestClassifier()
 rf.fit(X, y)
 ```
+
+# Plot 
+```python
+plt.plot(rf.feature_importances_)
+plt.xticks(np.arrange(X.shape[1]), X.columns.tolist().rotation=90):
+```
