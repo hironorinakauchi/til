@@ -31,4 +31,5 @@ if you find data that has a particularly high or low value, then you could inves
 ```python
 print( 'Mean', train.x8.mean())
 print( 'std', train.x8, std())
+train.x8.value_counts().head(15)
 ```
