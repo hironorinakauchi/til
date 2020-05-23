@@ -45,6 +45,7 @@
 - [transform numerical features](workflow/transform-numerical-features.md)
 - [count the number of events in the past x hours](workflow/count-number-of-events-in-the-past-x-hours.md)
 - [calculate the number of previous app downloads](workflow/calculate-number-of-previous-app-downloads.md)
+- [build a quick baseline](workflow/build-a-quick-baseline.md)
 
 ### Questions 
 - [remove rows with missing target, separate target from predictors?](questions/remove-rows-w-missing-values-separate-target-from-predictors.md)
