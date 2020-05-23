@@ -26,3 +26,9 @@ rf.fit(X, y)
 plt.plot(rf.feature_importances_)
 plt.xticks(np.arrange(X.shape[1]), X.columns.tolist().rotation=90):
 ```
+if you find data that has a particularly high or low value, then you could investigate further by looking up the mean and std. For the sake of simplicity, let's call that data x8.
+
+```python
+print( 'Mean', train.x8.mean())
+print( 'std', train.x8, std())
+```
